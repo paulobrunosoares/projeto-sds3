@@ -1,25 +1,31 @@
-# projeto-sds3
-# Big Game Survey 
+# Dashboard de Vendas 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/paulobrunosoares/projeto-sds3/blob/master/LICENSE) 
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+https://paulobrunoss-dsvendas.netlify.app
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Este projeto foi desenvolvido em uma semana no evento Semana Spring React oferecido pela [DevSuperior](https://devsuperior.com.br) gratuitamente em 3 aulas com a carga horária de 16 horas.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
-
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+<div align="center">
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+<kbd><img src="https://github.com/paulobrunosoares/assets/blob/master/projetos/sds3/home.png" alt="Tablet" width="1000px;" height="450px;"/></kbd> 
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+<kbd><img src="https://github.com/paulobrunosoares/assets/blob/master/projetos/sds3/dashboard.png" alt="Tablet" width="1000px;" height="450px;"/></kbd>
+
+</div>
+
+## Layout mobile
+<div align="center">
+
+<kbd><img src="https://github.com/paulobrunosoares/assets/blob/master/projetos/sds3/mobile1.png" alt="Tablet" width="300px;"/></kbd>
+ <kbd><img src="https://github.com/paulobrunosoares/assets/blob/master/projetos/sds3/mobile2.png" alt="Tablet" width="300px;"/></kbd> 
+<kbd><img src="https://github.com/paulobrunosoares/assets/blob/master/projetos/sds3/mobile3.png" alt="Tablet" width="300px;"/></kbd>
+
+</div>
 
 # Tecnologias utilizadas
 ## Back end
@@ -27,12 +33,15 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Spring Boot
 - JPA / Hibernate
 - Maven
+- Postgres
+- SQL
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
+- React
+- HTML / CSS / TypeScript
+- Bootstrap 5.0
+- date-fns
 - Apex Charts
-- Expo
+- axios
 ## Implantação em produção
 - Back end: Heroku
 - Front end web: Netlify
@@ -45,13 +54,16 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/paulobrunosoares/projeto-sds3
 
 # entrar na pasta do projeto back end
 cd backend
 
 # executar o projeto
 ./mvnw spring-boot:run
+
+Obs: O servidor iniciará na porta 8080 - Acesse <http://localhost:8080>
+     /h2-console
 ```
 
 ## Front end web
@@ -59,10 +71,10 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/paulobrunosoares/projeto-sds3
 
 # entrar na pasta do projeto front end web
-cd front-web
+cd frontend
 
 # instalar dependências
 yarn install
@@ -73,7 +85,13 @@ yarn start
 
 # Autor
 
-Wellington Mazoni de Andrade
+<div align="center">
+  
+***Paulo Bruno da Silva Soares***
 
-https://www.linkedin.com/in/wmazoni
+https://github.com/paulobrunosoares
+
+https://www.linkedin.com/in/paulo-soares-29940b70/
+
+</div>
 
